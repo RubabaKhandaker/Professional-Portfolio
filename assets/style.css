@@ -1,3 +1,10 @@
+:root {
+    --spacegrey: rgb(44, 39, 51);
+    --spacewhite: rgb(222, 215, 228);
+    --heliotrope: rgb(157, 80, 245);
+    --accent: rgb(255, 223, 173);
+}
+
 .scroll-smooth {
     scroll-behavior: smooth;
 }
@@ -21,6 +28,13 @@ ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+}
+
+section {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .card {
