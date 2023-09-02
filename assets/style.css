@@ -1,0 +1,42 @@
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+header,
+#contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+nav ul,
+ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+.card {
+    /* display: inline-block; */
+    flex: 1 0 200px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#cards-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
