@@ -9,13 +9,39 @@
     scroll-behavior: smooth;
 }
 
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--spacegrey);
+    color: var(--spacewhite);
+}
 
-header,
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 700;
+}
+
+header {
+	
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
 #contact-section {
     display: flex;
     justify-content: space-between;
@@ -26,7 +52,7 @@ header,
 nav ul,
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     min-width: 300px;
 }
 
@@ -38,7 +64,7 @@ section {
 }
 
 .card {
-    /* display: inline-block; */
+    display: inline-block;
     flex: 1 0 200px;
     margin: 10px;
     padding: 20px;
@@ -53,4 +79,10 @@ footer {
     display: flex;
     justify-content: center;
     padding: 2%;
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        flex-direction: row;
+    }
 }
