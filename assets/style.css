@@ -83,8 +83,8 @@ section {
 
 #cards-section {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+    flex-wrap: wrap-reverse;
+    flex: 1 0;
     background-color: var(--spacegrey);
     justify-content: space-evenly;
 }
@@ -93,7 +93,7 @@ section {
     border-style: solid;
     border-width: 1px;
     padding: 10px;
-    flex: 1 0 500px;
+    flex: 2 1 500px;
     margin: 20px;
 }
 
