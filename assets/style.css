@@ -36,6 +36,7 @@ h1 {
 
 h2 {
     font-size: 2em;
+    justify-self: center;
 }
 
 h3 {
@@ -66,14 +67,7 @@ header {
     background-image: linear-gradient(90deg, var(--spacewhite), 20%, var(--spacegrey));
 }
 
-#contact-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul,
-ul {
+nav ul {
     display: flex;
     justify-content: space-evenly;
     min-width: 300px;
@@ -98,15 +92,25 @@ section {
 .card {
     border-style: solid;
     border-width: 1px;
-    border-radius: var(--border-radius);
     padding: 10px;
-    flex: 0 0 300px;
-    box-shadow: 10px 10px var(--heliotrope);
+    flex: 1 0 500px;
     margin: 20px;
 }
 
 .card > img {
     width: 100%;
+}
+
+#contact-section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 300px;
 }
 
 footer {
@@ -118,5 +122,11 @@ footer {
 @media screen and (min-width: 1024px) {
     header {
         flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
     }
 }
