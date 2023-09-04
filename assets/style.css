@@ -1,8 +1,8 @@
 :root {
-    --spacegrey: rgb(44, 39, 51);
-    --spacewhite: rgb(222, 215, 228);
+    --spacegrey: rgb(45, 36, 51);
+    --spacewhite: rgb(235, 213, 232);
     --heliotrope: rgb(157, 80, 245);
-    --accent: rgb(255, 223, 173);
+    --accent: rgb(255, 115, 197);
 }
 
 .scroll-smooth {
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    justify-self: center;
+    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -67,17 +67,32 @@ header {
     align-items: center;
     padding: 1%;
     padding-left: 0%;
-    background-image: linear-gradient(90deg, var(--spacewhite, 0.5), 20%, var(--spacegrey, 0.9));
+    background-color: rgb(235, 213, 232, .5);
 }
 
+.avatar {
+    background-image: url("https://raw.githubusercontent.com/RubabaKhandaker/Professional-Portfolio/main/assets/images/Avatar-bg.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 main {
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 nav ul {
     display: flex;
+    float: inline-end;
     justify-content: space-evenly;
     min-width: 300px;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: var(--spacegrey);
 }
 
 section {
