@@ -9,6 +9,12 @@
     scroll-behavior: smooth;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-size: 16px;
     line-height: 1.5em;
@@ -81,16 +87,26 @@ section {
     padding: 1%;
 }
 
-.card {
-    display: inline-block;
-    flex: 1 0 200px;
-    margin: 10px;
-    padding: 20px;
-}
-
 #cards-section {
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
+    background-color: var(--spacegrey);
+    justify-content: space-evenly;
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px var(--heliotrope);
+    margin: 20px;
+}
+
+.card > img {
+    width: 100%;
 }
 
 footer {
