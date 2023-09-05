@@ -3,7 +3,7 @@
 ## Description
 ![Screenshot of Deployed site.](https://raw.githubusercontent.com/RubabaKhandaker/Professional-Portfolio/main/assets/images/README-Site-Screenshot.png)
 
-This week's homework challenge was to re-factor some of the code for a given site to make said site a little more accessible to users who utilize assistive technologies, as well as Google search engines. This was done by adding alt attributes to all images, concise descriptions to title elements, and making sure all HTML elements follow a logical structure.
+This is a portfolio of work that showcases some of the core skills I have learned in week 2 of the MONU coding bootcamp - such as flexbox, media queries, and CSS variables.
 
 ## Usage
 
